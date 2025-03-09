@@ -6,11 +6,11 @@
   <a href="https://yulin-physics.github.io/yulinchen"><img height="20em" src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Yulins website" style="max-width: 100%;"/></a>
 </p>
 
-<h3 align="center">A junior software developer from UK</h3>
+<h3 align="center">A rust software developer from UK</h3>
 
-- 🌱 I’m currently learning **rust**
+- 🌱 I’m currently learning **wasm and FFI**
 
-- 💬 Ask me about **react, go, api**
+- 💬 Ask me about **rust, go and solving puzzles**
 
 - ⚡ Fun fact **I started coding in July 2021**
 
