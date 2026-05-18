@@ -33,7 +33,7 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?color_snake=%23B5C99A&color_dots=%232F3E2C,%234A5D45,%235F7A61,%236B8F71,%237CA982
 
       - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
