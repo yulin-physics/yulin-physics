@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: readme-tools/github-readme-stats-action@v2
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=00000000&title_color=5F7A61&text_color=2F3E2C&icon_color=7CA982&ring_color=B5C99A
@@ -24,7 +24,7 @@ jobs:
           token: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: readme-tools/github-readme-stats-action@v2
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=5F7A61&text_color=2F3E2C
